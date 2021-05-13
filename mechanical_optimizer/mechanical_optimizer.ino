@@ -42,6 +42,8 @@ void setup() {
   delay(4000);
   servo.write(max_sweep_angle, 20);
   delay(4000);
+  servo.write(min_sweep_angle, 20);
+  delay(4000);
 }
 
 void loop() {
